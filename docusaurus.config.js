@@ -62,7 +62,35 @@ const config = {
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
                 },
+                debug: process.env.NODE_ENV !== "production",
+                sitemap: {
+                    changefreq: "weekly",
+                    priority: 0.5,
+                    ignorePatterns: ["/tags/**"],
+                    filename: "sitemap.xml",
+                },
+                googleAnalytics: {
+                    trackingID: "350619225",
+                    anonymizeIP: true,
+                },
+                gtag: {
+                    trackingID: "350619225",
+                    anonymizeIP: true,
+                },
             }),
+        ],
+    ],
+
+    plugins: [
+        [
+            "@docusaurus/plugin-ideal-image",
+            {
+                quality: 70,
+                max: 1030,
+                min: 640,
+                steps: 2,
+                disableInDev: false,
+            },
         ],
     ],
 
