@@ -102,15 +102,16 @@ const config = {
                 title: "Goormy 라이브러리",
                 logo: {
                     alt: "Goormy 사이트 로고",
-                    src: "img/logo.svg",
+                    src: "img/logo-light.svg",
                 },
                 items: [
                     {
                         type: "doc",
                         docId: "intro",
                         position: "left",
-                        label: "Docs",
+                        label: "Library",
                     },
+                    { to: "/blog", label: "Blog", position: "left" },
                     {
                         href: "https://github.com/goormy/docusaurus-library",
                         label: "GitHub",
@@ -121,7 +122,7 @@ const config = {
                 style: "primary",
             },
             footer: {
-                style: "light",
+                style: "dark",
                 copyright: `Copyright © ${new Date().getFullYear()} Goormy, Built with Docusaurus.`,
             },
             tableOfContents: {
