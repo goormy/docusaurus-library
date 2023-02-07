@@ -6,9 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: "구르미 도서관",
-    tagline:
-        "구르미들이 읽은 책을 문서화하고 공유할 수 있는 도서관을 만들어 나갑니다.",
+    title: "Goormy 라이브러리",
+    tagline: "구르미들이 알게 된 것을 서로 공유하는 공간입니다.",
     url: "https://goormy-docusaurus-library.com",
     baseUrl: "/",
     onBrokenLinks: "throw",
@@ -109,9 +108,23 @@ const config = {
                         type: "doc",
                         docId: "intro",
                         position: "left",
-                        label: "Library",
+                        label: "튜토리얼",
                     },
-                    { to: "/blog", label: "Blog", position: "left" },
+                    {
+                        type: "doc",
+                        // 숫자 접두사를 사용하여 폴더를 생성하면 정렬이 됩니다.
+                        // ex) docs/books/01-이펙티브-타입스크립트/01-chapter/01.md는 아래와 같습니다.
+                        docId: "books/이펙티브-타입스크립트/chapter-01/01",
+                        position: "left",
+                        label: "도서관",
+                    },
+                    {
+                        type: "doc",
+                        docId: "lectures/얄팍한-코딩사전/제대로-파는-HTML-CSS/chapter-01/01",
+                        position: "left",
+                        label: "강의",
+                    },
+                    { to: "/blog", label: "블로그", position: "left" },
                     {
                         href: "https://github.com/goormy/docusaurus-library",
                         label: "GitHub",
