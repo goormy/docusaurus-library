@@ -1,0 +1,10 @@
+{
+    "position": 1,
+    "label": "얄팍한 코딩사전",
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "이펙티브 타입스크립트"
+    }
+}

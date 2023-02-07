@@ -1,0 +1,10 @@
+{
+    "position": 1,
+    "label": "섹션 0. 인트로",
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "섹션 0. 인트로"
+    }
+}

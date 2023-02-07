@@ -1,0 +1,13 @@
+{
+    "position": 1,
+    "label": "이펙티브 타입스크립트",
+    "collapsible": true,
+    "collapsed": true,
+    "link": {
+        "type": "generated-index",
+        "title": "이펙티브 타입스크립트"
+    },
+    "customProps": {
+        "description": "동작 원리의 이해와 구체적인 조언 62가지"
+    }
+}
