@@ -111,10 +111,22 @@ const config = {
                         label: "튜토리얼",
                     },
                     {
-                        type: "doc",
+                        type: "dropdown",
                         // 숫자 접두사를 사용하여 폴더를 생성하면 정렬이 됩니다.
                         // ex) docs/books/01-이펙티브-타입스크립트/01-chapter/01.md는 아래와 같습니다.
-                        docId: "books/이펙티브-타입스크립트/chapter-01/01",
+                        // docId: "books/이펙티브-타입스크립트/chapter-01/01",
+                        items: [
+                            {
+                                type: "docSidebar",
+                                sidebarId: "merryBooksSidebar",
+                                label: "merry",
+                            },
+                            {
+                                type: "docSidebar",
+                                sidebarId: "irangBooksSidebar",
+                                label: "irang",
+                            },
+                        ],
                         position: "left",
                         label: "도서관",
                     },

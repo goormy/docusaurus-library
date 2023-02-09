@@ -6,8 +6,5 @@
     "link": {
         "type": "generated-index",
         "title": "1장 타입스크립트 알아보기"
-    },
-    "customProps": {
-        "description": "1장에서는 타입스크립트의 큰 그림을 이해하는 데 도움이 될 내용을 다룹니다."
     }
 }
